@@ -226,7 +226,7 @@ testing_set &lt;- trainFeatures[-inTrain, ]
 
 <h2>Model quality</h2>
 
-<p>After predicting values for test set we see, that we have a model with 99.96% accuracy. We expect quiet low out of sample error rate of 0.04%.</p>
+<p>After predicting values for test set we see, that we have a model with 99.7% accuracy. We expect quiet low out of sample error rate of 0.3%.</p>
 
 <pre><code class="r">predictions &lt;- predict(modelFit2, newdata=testing_set)
 confusionMatrix(predictions, testing_set$classe)

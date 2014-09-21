@@ -59,7 +59,7 @@ modelFit2 <- randomForest(classe ~ ., data=training_set)
 Model quality
 -----
 
-After predicting values for test set we see, that we have a model with 99.96% accuracy. We expect quiet low out of sample error rate of 0.04%.
+After predicting values for test set we see, that we have a model with 99.7% accuracy. We expect quiet low out of sample error rate of 0.3%.
 
 
 ```r
